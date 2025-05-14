@@ -149,16 +149,17 @@ function App() {
                 src="./bg.png"
                 alt=""
               />
-              <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.4] rotate-[-10deg]">
-                <h1 className="text-[12rem] leading-none -ml-40">grand</h1>
-                <h1 className="text-[12rem] leading-none ml-20">theft</h1>
-                <h1 className="text-[12rem] leading-none -ml-40">auto</h1>
+              <div className="text text-white flex flex-col gap-3 absolute top-20 left-1/2 -translate-x-1/2 scale-[1.1] rotate-[-10deg]">
+                <h1 className="text-[10rem] leading-none -ml-40">grand</h1>
+                <h1 className="text-[10rem] leading-none ml-20">theft</h1>
+                <h1 className="text-[10rem] leading-none -ml-40">auto</h1>
               </div>
-              <img
-                className="absolute character -bottom-[150%] left-1/2 -translate-x-1/2  scale-[3] rotate-[-20deg]"
+             <img
+                className="absolute -bottom-[50%] left-1/2 -translate-x-1/2 scale-[0.8]"
                 src="./girlbg.png"
                 alt=""
               />
+
             </div>
             <div className="btmbar text-white absolute bottom-0 left-0 w-full py-15 px-10 bg-gradient-to-t from-black to-transparent">
               <div className="flex gap-4 items-center">
@@ -174,39 +175,31 @@ function App() {
               />
             </div>
           </div>
-          <div className="w-full h-screen flex items-center justify-center bg-black">
-            <div className="cntnr flex text-white w-full h-[80%] ">
+          <div className="w-full h-screen flex items-center justify-center bg-black overflow-hidden">
+            <div className="cntnr flex text-white w-full h-full ">
               <div className="limg relative w-1/2 h-full">
                 <img
-                  className="absolute scale-[1.3] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                  className="absolute scale-[1.2] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
                   src="./imag.png"
                   alt=""
                 />
               </div>
-              <div className="rg w-[30%] py-30">
+              <div className="rg w-[40%] px-11 py-11">
                 <h1 className="text-8xl">Still Running,</h1>
                 <h1 className="text-8xl">Not Hunting</h1>
-                <p className="mt-10 text-xl font-[Helvetica_Now_Display]">
+                <p className="mt-10 text-2xl font-[Helvetica_Now_Display] ">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Distinctio possimus, asperiores nam, omnis inventore nesciunt
                   a architecto eveniet saepe, ducimus necessitatibus at
                   voluptate.
                 </p>
-                <p className="mt-3 text-xl font-[Helvetica_Now_Display]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                  eius illum fugit eligendi nesciunt quia similique velit
-                  excepturi soluta tenetur illo repellat consectetur laborum
-                  eveniet eaque, dicta, hic quisquam? Ex cupiditate ipsa nostrum
-                  autem sapiente.
+                <p className="mt-6 text-2xl font-[Helvetica_Now_Display] ">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Distinctio possimus, asperiores nam, omnis inventore nesciunt
+                  a architecto eveniet saepe, ducimus necessitatibus at
+                  voluptate.
                 </p>
-                <p className="mt-10 text-xl font-[Helvetica_Now_Display]">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
-                  eius illum fugit eligendi nesciunt quia similique velit
-                  excepturi soluta tenetur illo repellat consectetur laborum
-                  eveniet eaque, dicta, hic quisquam? Ex cupiditate ipsa nostrum
-                  autem sapiente.
-                </p>
-                <button className="bg-yellow-500 px-10 py-10 text-black mt-10 text-4xl">
+                <button className="bg-yellow-500 px-6 py-6 text-black mt-10 text-4xl">
                   Download Now
                 </button>
               </div>
